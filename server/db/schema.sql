@@ -13,6 +13,5 @@ CREATE TABLE movies (
 
 -- SELECT * FROM movies;
 -- INSERT INTO movies (hasSeen, title) VALUES (0, 'Star Wars: Episode I');
--- UPDATE movies SET hasSeen = ? WHERE id = ?;
--- UPDATE movies SET hasSeen = ? WHERE id = ?;
--- DELETE movies WHERE id = ?;
+-- UPDATE movies SET hasSeen = ?, title = ? WHERE id = ?;
+-- DELETE FROM movies WHERE id = ?;
